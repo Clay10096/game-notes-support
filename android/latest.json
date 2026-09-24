@@ -1,7 +1,7 @@
 {
-  "versionCode": 47,
-  "versionName": "2.1.1",
+  "versionCode": 48,
+  "versionName": "2.1.2",
   "publishedAt": "2026-09-24",
-  "notes": "账号同步、封面缓存、游戏记录与界面体验优化。安装前建议备份重要记录。",
-  "downloadUrl": "https://clay10096.github.io/game-notes-support/android/GameNotes-Android-v2.1.1-release.apk"
+  "notes": "简略模式改为每排两张封面卡片，详细模式保持不变。安装前建议备份重要记录。",
+  "downloadUrl": "https://clay10096.github.io/game-notes-support/android/游戏笔记-Android-v2.1.2-release.apk"
 }
