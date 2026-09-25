@@ -1,7 +1,7 @@
 {
-  "versionCode": 48,
-  "versionName": "2.1.2",
-  "publishedAt": "2026-09-24",
-  "notes": "简略模式改为每排两张封面卡片，详细模式保持不变。安装前建议备份重要记录。",
-  "downloadUrl": "https://clay10096.github.io/game-notes-support/android/%E6%B8%B8%E6%88%8F%E7%AC%94%E8%AE%B0-Android-v2.1.2-release.apk"
+  "versionCode": 49,
+  "versionName": "2.1.3",
+  "publishedAt": "2026-09-25",
+  "notes": "修复日版游戏名称与封面可能被过滤的问题；待确认游戏取消编辑后返回原列表。仅返回编号的旧游戏会提示名称待补全。安装前建议备份重要记录。",
+  "downloadUrl": "https://clay10096.github.io/game-notes-support/android/%E6%B8%B8%E6%88%8F%E7%AC%94%E8%AE%B0-Android-v2.1.3-release.apk"
 }
