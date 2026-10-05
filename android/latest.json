@@ -1,7 +1,7 @@
 {
-  "versionCode": 56,
-  "versionName": "2.1.10",
-  "publishedAt": "2026-09-29",
-  "notes": "改进同平台多账号游戏合并、断开后重连与手动时长累加；PS 奖杯暂时读取失败时保留旧数据；折扣卡片新增人民币参考价。应用内更新入口改用新网站。与此前正式版同签名，可覆盖安装；安装前建议备份重要记录。",
-  "downloadUrl": "https://game-notes-support.pages.dev/android/%E6%B8%B8%E6%88%8F%E7%AC%94%E8%AE%B0-Android-v2.1.10-release.apk"
+  "versionCode": 59,
+  "versionName": "2.1.13",
+  "publishedAt": "2026-10-05",
+  "notes": "修复部分机型游戏详情底部无法完整滚动的问题；收紧折扣卡片排版，完整显示当地价格与人民币参考价，并适配小屏和大字号；完善实验功能、待发售与倒计时备份。保留多账号合并、手动时长增量同步与 PS 奖杯数据保护。应用内更新使用新网站，与此前正式版同签名，可覆盖安装；安装前建议备份重要记录。",
+  "downloadUrl": "https://game-notes-support.pages.dev/android/%E6%B8%B8%E6%88%8F%E7%AC%94%E8%AE%B0-Android-v2.1.13-release.apk"
 }
