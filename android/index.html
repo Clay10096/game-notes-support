@@ -27,16 +27,20 @@
     <h1>获取游戏笔记安卓版</h1>
     <p class="lead">以后有新版本，会在此页显示；App 内“个人设置 → 获取最新版本”也会读取这里的版本信息。</p>
     <section class="card" aria-labelledby="version-title">
-      <h2 id="version-title" class="version">版本 2.1.13</h2>
-      <p class="meta">发布于 2026 年 10 月 5 日 · Android 8.0 及以上手机</p>
-      <p>修复部分机型游戏详情底部无法完整滚动的问题；收紧折扣卡片行距与留白，完整显示当地价格和人民币参考价，并适配小屏及大字号。完善实验功能、待发售与倒计时备份。应用内更新仍从新网站读取，使用与此前正式版相同的签名。</p>
-      <a class="button" href="https://game-notes-support.pages.dev/android/%E6%B8%B8%E6%88%8F%E7%AC%94%E8%AE%B0-Android-v2.1.13-release.apk" download>下载 Android 2.1.13 安装包</a>
+      <h2 id="version-title" class="version">版本 2.1.17</h2>
+      <p class="meta">发布于 2026 年 10 月 6 日 · Android 8.0 及以上手机</p>
+      <p>修复 PS 游戏与奖杯列表末页返回空分页字段时同步失败的问题，完善浏览器登录与凭证填写说明，并优化登录页及统计数字排版。应用内更新仍从新网站读取，使用与此前正式版相同的签名。</p>
+      <a class="button" href="https://game-notes-support.pages.dev/android/%E6%B8%B8%E6%88%8F%E7%AC%94%E8%AE%B0-Android-v2.1.17-release.apk" download>下载 Android 2.1.17 安装包</a>
       <p class="small">下载后在手机上打开 APK，按系统提示安装。安装前建议备份重要游戏记录。</p>
-      <p class="small">安装包 SHA-256：ee78923ef7adab4f73bdc0e15ee42e6e84f2fb1ec3da812fe926c8ac22a4a94d</p>
+      <p class="small">安装包 SHA-256：38d8d11c3feff6b135f2229e1be69d9cc8eef8b2cefd54d2be612195bf6c15b1</p>
     </section>
     <section class="card" aria-labelledby="changes-title">
       <h2 id="changes-title">本次更新</h2>
       <ul>
+        <li>修复 PS 游戏与奖杯列表中 nextOffset 或总数为空时被误判为格式错误的问题，正常末页可以完成读取；分页不完整时仍保留本地数据。</li>
+        <li>区分登录失效、访问受限和数据读取异常，不再一律提示重新登录。覆盖更新后，可在 PS 账号同步页点击“立即重试”。</li>
+        <li>PS 登录默认使用浏览器，完善获取及粘贴 NPSSO 的流程，并说明 Online ID 是 PSN 公开昵称。</li>
+        <li>优化 PS 登录页标题和统计数字排版，减少小屏及大字号下的异常换行。</li>
         <li>详情页和相关弹窗按实际窗口高度布局，并预留系统导航安全距离，修复部分机型底部内容与保存按钮无法完整滚动到的问题。</li>
         <li>折扣卡片取消固定高度，缩短行距和留白；当地价格及人民币参考价完整显示，不再截断。小屏或大字号时自动改为上下排版。</li>
         <li>实验功能中的小组件、折扣和待发售分区更清晰；完善倒计时收藏、预览与未知发售日期的处理，倒计时资料现在包含在游戏 JSON/ZIP 备份中。</li>
@@ -46,6 +50,7 @@
         <li>游戏折扣卡片在当地币种价格下显示约人民币参考价，并标注汇率日期；实际支付金额以官方商店和支付渠道为准。</li>
         <li>应用内“获取最新版本”改由新网站提供更新信息；旧网站继续提供更新入口，供此前安装的版本使用。</li>
       </ul>
+      <p class="small" style="margin-top:20px">PS读取仅为试验性功能，稳定性待验证。</p>
       <p class="small" style="margin-top:20px">游戏记录与倒计时资料保存在本机，建议定期导出备份。桌面小组件的跨日刷新可能受系统省电策略影响而延迟，不保证午夜整点刷新；不同桌面上的显示仍需实机验证。人民币价格为参考估算，实际支付金额以官方商店和支付渠道为准。</p>
     </section>
     <section class="card" aria-labelledby="install-title">
