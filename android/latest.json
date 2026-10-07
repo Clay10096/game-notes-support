@@ -1,7 +1,7 @@
 {
-  "versionCode": 63,
-  "versionName": "2.1.17",
-  "publishedAt": "2026-10-06",
-  "notes": "修复 PS 游戏与奖杯列表末页返回空分页字段时同步失败的问题；区分登录失效、访问受限和数据读取异常，避免反复要求重新登录。完善浏览器登录、NPSSO 粘贴流程与 Online ID 说明，优化登录页及统计数字排版。PS读取仅为试验性功能，稳定性待验证。与此前正式版同签名，可直接覆盖安装；应用内更新继续使用新网站。",
-  "downloadUrl": "https://game-notes-support.pages.dev/android/%E6%B8%B8%E6%88%8F%E7%AC%94%E8%AE%B0-Android-v2.1.17-release.apk"
+  "versionCode": 64,
+  "versionName": "2.1.18",
+  "publishedAt": "2026-10-07",
+  "notes": "统一详细、简略、单款、安利及统计分享图的画布与字体，减少屏幕尺寸、字号及横竖屏造成的导出差异；补齐玩家头像、自定义标题和“来自游戏笔记 APP”。完善长简评、封面与透明版本标识的布局，预览、分享和保存使用同一文件；优化多页保存、旋转及失败处理。与此前正式版同签名，可覆盖安装；应用内更新继续使用新网站。PS读取仅为试验性功能，稳定性待验证。",
+  "downloadUrl": "https://game-notes-support.pages.dev/android/%E6%B8%B8%E6%88%8F%E7%AC%94%E8%AE%B0-Android-v2.1.18-release.apk"
 }

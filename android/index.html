@@ -27,15 +27,28 @@
     <h1>获取游戏笔记安卓版</h1>
     <p class="lead">以后有新版本，会在此页显示；App 内“个人设置 → 获取最新版本”也会读取这里的版本信息。</p>
     <section class="card" aria-labelledby="version-title">
-      <h2 id="version-title" class="version">版本 2.1.17</h2>
-      <p class="meta">发布于 2026 年 10 月 6 日 · Android 8.0 及以上手机</p>
-      <p>修复 PS 游戏与奖杯列表末页返回空分页字段时同步失败的问题，完善浏览器登录与凭证填写说明，并优化登录页及统计数字排版。应用内更新仍从新网站读取，使用与此前正式版相同的签名。</p>
-      <a class="button" href="https://game-notes-support.pages.dev/android/%E6%B8%B8%E6%88%8F%E7%AC%94%E8%AE%B0-Android-v2.1.17-release.apk" download>下载 Android 2.1.17 安装包</a>
+      <h2 id="version-title" class="version">版本 2.1.18</h2>
+      <p class="meta">发布于 2026 年 10 月 7 日 · Android 8.0 及以上手机</p>
+      <p>本次重点优化分享导出：统一画布、字体、封面及信息布局，减少不同屏幕和系统字号带来的差异。应用内更新仍从新网站读取，使用与此前正式版相同的签名。</p>
+      <a class="button" href="https://game-notes-support.pages.dev/android/%E6%B8%B8%E6%88%8F%E7%AC%94%E8%AE%B0-Android-v2.1.18-release.apk" download>下载 Android 2.1.18 安装包</a>
       <p class="small">下载后在手机上打开 APK，按系统提示安装。安装前建议备份重要游戏记录。</p>
-      <p class="small">安装包 SHA-256：38d8d11c3feff6b135f2229e1be69d9cc8eef8b2cefd54d2be612195bf6c15b1</p>
+      <p class="small">安装包 SHA-256：ae3f0ffe66b679bac2dd8eb4ccc9e5589e790180a683fc94c088fbabf108363b</p>
+      <p class="small"><a href="release-notes-2.1.18.txt" download>下载本版更新说明</a></p>
     </section>
     <section class="card" aria-labelledby="changes-title">
       <h2 id="changes-title">本次更新</h2>
+      <ul>
+        <li>详细、简略、单款、安利与统计分享图使用固定画布及内置字体，不再跟随手机屏幕密度、系统字号或横竖屏改变导出比例。</li>
+        <li>详细导出每页最多 18 款；简略导出每行 3 款、每页最多 99 款。这是分享图片的分页规则，不改变首页简略模式的双列布局。</li>
+        <li>补齐玩家头像、自定义游戏笔记标题及“来自游戏笔记 APP”。封面按原图比例裁切，实体卡、钥匙卡和光盘标识保留透明背景。</li>
+        <li>单款分享保留完整长简评，未填写的简评不占空位；列表导出的超长简评使用省略提示。统计导出隐藏无数据栏目，金额按所选币种统计，不混加币种。</li>
+        <li>预览、系统分享和相册保存使用同一生成文件。完善多页保存、屏幕旋转与返回预览后的状态，避免重复保存或丢失选择。</li>
+        <li>已指定封面但加载失败时明确提示，不导出缺图的半成品；保存或内存不足时报告失败，不根据机型偷偷缩小导出尺寸。</li>
+      </ul>
+      <p class="small" style="margin-top:20px">已在多种屏幕密度、系统字号和横竖屏配置下验证导出一致性；不同厂商手机仍欢迎反馈。PS读取仅为试验性功能，稳定性待验证。</p>
+    </section>
+    <section class="card" aria-labelledby="previous-changes-title">
+      <h2 id="previous-changes-title">此前版本的主要改进（2.1.17 及更早）</h2>
       <ul>
         <li>修复 PS 游戏与奖杯列表中 nextOffset 或总数为空时被误判为格式错误的问题，正常末页可以完成读取；分页不完整时仍保留本地数据。</li>
         <li>区分登录失效、访问受限和数据读取异常，不再一律提示重新登录。覆盖更新后，可在 PS 账号同步页点击“立即重试”。</li>
