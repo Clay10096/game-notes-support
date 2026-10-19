@@ -27,29 +27,36 @@
     <h1>获取游戏笔记安卓版</h1>
     <p class="lead">以后有新版本，会在此页显示；App 内“个人设置 → 获取最新版本”也会读取这里的版本信息。</p>
     <section class="card" aria-labelledby="version-title">
-      <h2 id="version-title" class="version">版本 2.1.18</h2>
-      <p class="meta">发布于 2026 年 10 月 7 日 · Android 8.0 及以上手机</p>
-      <p>本次重点优化分享导出：统一画布、字体、封面及信息布局，减少不同屏幕和系统字号带来的差异。应用内更新仍从新网站读取，使用与此前正式版相同的签名。</p>
-      <a class="button" href="https://game-notes-support.pages.dev/android/%E6%B8%B8%E6%88%8F%E7%AC%94%E8%AE%B0-Android-v2.1.18-release.apk" download>下载 Android 2.1.18 安装包</a>
+      <h2 id="version-title" class="version">版本 2.1.35</h2>
+      <p class="meta">发布于 2026 年 10 月 20 日 · Android 8.0 及以上手机</p>
+      <p>本次包含自 2.1.18 以来的账号读取与界面改进，重点优化 Xbox 同步、PS 账号连接、小屏排版及错误提示。应用内更新仍从新网站读取，使用与此前正式版相同的签名。</p>
+      <a class="button" href="https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.35-release.apk" download>下载 Android 2.1.35 安装包</a>
       <p class="small">下载后在手机上打开 APK，按系统提示安装。安装前建议备份重要游戏记录。</p>
-      <p class="small">安装包 SHA-256：ae3f0ffe66b679bac2dd8eb4ccc9e5589e790180a683fc94c088fbabf108363b</p>
-      <p class="small"><a href="release-notes-2.1.18.txt" download>下载本版更新说明</a></p>
+      <p class="small">安装包约 26.1 MiB；本站下载入口会跳转至本项目的 GitHub 正式发布附件。<a href="https://github.com/Clay10096/game-notes-support/releases/tag/v2.1.35">备用下载与版本详情</a>。</p>
+      <p class="small">安装包 SHA-256：67ad6dd372fc5d858784f12c117b432f6deb8649b11c17ba9500d1c4b7bbd5fa</p>
+      <p class="small"><a href="release-notes-2.1.35.txt" download>下载本版更新说明</a></p>
     </section>
     <section class="card" aria-labelledby="changes-title">
       <h2 id="changes-title">本次更新</h2>
       <ul>
-        <li>详细、简略、单款、安利与统计分享图使用固定画布及内置字体，不再跟随手机屏幕密度、系统字号或横竖屏改变导出比例。</li>
-        <li>详细导出每页最多 18 款；简略导出每行 3 款、每页最多 99 款。这是分享图片的分页规则，不改变首页简略模式的双列布局。</li>
-        <li>补齐玩家头像、自定义游戏笔记标题及“来自游戏笔记 APP”。封面按原图比例裁切，实体卡、钥匙卡和光盘标识保留透明背景。</li>
-        <li>单款分享保留完整长简评，未填写的简评不占空位；列表导出的超长简评使用省略提示。统计导出隐藏无数据栏目，金额按所选币种统计，不混加币种。</li>
-        <li>预览、系统分享和相册保存使用同一生成文件。完善多页保存、屏幕旋转与返回预览后的状态，避免重复保存或丢失选择。</li>
-        <li>已指定封面但加载失败时明确提示，不导出缺图的半成品；保存或内存不足时报告失败，不根据机型偷偷缩小导出尺寸。</li>
+        <li>新增 Xbox 设备码登录与多账号读取，完善游戏、时长、封面、成就与玩家分数的读取和 Xbox 360 兼容。</li>
+        <li>Xbox 主同步与成就补全分离，游戏和时长逐批保存，不再让首页一直等待逐款成就；完善超时、停止、取消、限流退避与失败重试。</li>
+        <li>区分官方未提供时长、真实零值与网络失败。缺失时长可确认改为手动填写，历史和成就继续更新；保留已有时长及个人修改，不用虚假小时数填补缺失。</li>
+        <li>Xbox 不再把支持设备或成就对应平台直接当作实际游玩平台；保留已有值与玩家填写，发售平台使用接口提供的版本平台。</li>
+        <li>PS 粘贴凭证后自动识别本人账号，无需手动填写 Online ID。首次读取复用登录令牌，区分登录凭证失效、访问受限和服务异常；奖杯读取失败时保留游戏和旧奖杯。</li>
+        <li>优化账号读取的一致性、重复游戏处理、手动编辑保护与多账号隔离；筛选增加发售平台，可匹配自动读取和玩家填写的平台。</li>
+        <li>优化首页简略卡片的字号与信息排版、小屏及大字号下的标题和按钮布局；报错说明支持完整上下滚动，底部预留系统导航安全距离。</li>
+        <li>Steam 同步页新增网络与无内置加速服务说明；Xbox“账号”标题下增加官方未提供时长时需手动填写的说明。</li>
+        <li>保留此前统一分享画布、内置字体、头像、自定义标题、来源标识与透明版本图案等导出优化。</li>
       </ul>
-      <p class="small" style="margin-top:20px">已在多种屏幕密度、系统字号和横竖屏配置下验证导出一致性；不同厂商手机仍欢迎反馈。PS读取仅为试验性功能，稳定性待验证。</p>
+      <p class="small" style="margin-top:20px">PS读取仅为试验性功能，稳定性待验证。部分官方模拟器游戏和部分游戏，官方没有提供游戏时长信息，故需要玩家手动填写。</p>
+      <p class="small">Steam账号同步稳定性受网络波动等多方面影响，本APP为本地工具软件，并无内置加速服务，敬请谅解。</p>
     </section>
     <section class="card" aria-labelledby="previous-changes-title">
-      <h2 id="previous-changes-title">此前版本的主要改进（2.1.17 及更早）</h2>
+      <h2 id="previous-changes-title">此前版本的主要改进（2.1.18 及更早）</h2>
       <ul>
+        <li>详细、简略、单款、安利与统计分享图使用固定画布及内置字体；补齐玩家头像、自定义标题及“来自游戏笔记 APP”，减少机型和系统字号造成的导出差异。</li>
+        <li>预览、分享与保存使用同一生成文件；完善长简评、封面、多页保存与失败提示。实体卡、钥匙卡和光盘图案保留透明背景。</li>
         <li>修复 PS 游戏与奖杯列表中 nextOffset 或总数为空时被误判为格式错误的问题，正常末页可以完成读取；分页不完整时仍保留本地数据。</li>
         <li>区分登录失效、访问受限和数据读取异常，不再一律提示重新登录。覆盖更新后，可在 PS 账号同步页点击“立即重试”。</li>
         <li>PS 登录默认使用浏览器，完善获取及粘贴 NPSSO 的流程，并说明 Online ID 是 PSN 公开昵称。</li>

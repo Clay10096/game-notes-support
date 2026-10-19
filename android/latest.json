@@ -1,7 +1,7 @@
 {
-  "versionCode": 64,
-  "versionName": "2.1.18",
-  "publishedAt": "2026-10-07",
-  "notes": "统一详细、简略、单款、安利及统计分享图的画布与字体，减少屏幕尺寸、字号及横竖屏造成的导出差异；补齐玩家头像、自定义标题和“来自游戏笔记 APP”。完善长简评、封面与透明版本标识的布局，预览、分享和保存使用同一文件；优化多页保存、旋转及失败处理。与此前正式版同签名，可覆盖安装；应用内更新继续使用新网站。PS读取仅为试验性功能，稳定性待验证。",
-  "downloadUrl": "https://game-notes-support.pages.dev/android/%E6%B8%B8%E6%88%8F%E7%AC%94%E8%AE%B0-Android-v2.1.18-release.apk"
+  "versionCode": 81,
+  "versionName": "2.1.35",
+  "publishedAt": "2026-10-20",
+  "notes": "新增并优化 Xbox 账号读取：主同步与成就补全分离，完善超时、取消、限流恢复与 Xbox 360 兼容，支持缺失官方时长确认和手动填写；保护玩家手动修改与合并关系。PS 自动识别账号，无需填写 Online ID，改进登录凭证失效和服务异常的判断。优化首页简略卡片、小屏与大字号排版、报错页面滚动，新增发售平台筛选，补充 Steam 网络说明与 Xbox 时长说明。包含此前分享导出优化。与此前正式版同签名，可覆盖安装；应用内更新仍使用新网站。PS读取仅为试验性功能，稳定性待验证。",
+  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.35-release.apk"
 }
