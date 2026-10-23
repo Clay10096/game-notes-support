@@ -1,4 +1,4 @@
-# Keep the in-app download entry on the new website; binary releases use GitHub.
+# Legacy releases retain their existing routes. Current APKs are hosted directly under /android/.
 /android/GameNotes-Android-v2.1.35-release.apk https://github.com/Clay10096/game-notes-support/releases/download/v2.1.35/GameNotes-Android-v2.1.35-release.apk 302
 /android/GameNotes-Android-v2.1.37-release.apk https://github.com/Clay10096/game-notes-support/releases/download/v2.1.37/GameNotes-Android-v2.1.37-release.apk 302
 /android/GameNotes-Android-v2.1.38-release.apk https://github.com/Clay10096/game-notes-support/releases/download/v2.1.38/GameNotes-Android-v2.1.38-release.apk 302
