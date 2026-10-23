@@ -27,17 +27,28 @@
     <h1>获取游戏笔记安卓版</h1>
     <p class="lead">以后有新版本，会在此页显示；App 内“个人设置 → 获取最新版本”也会读取这里的版本信息。</p>
     <section class="card" aria-labelledby="version-title">
-      <h2 id="version-title" class="version">版本 2.1.37</h2>
-      <p class="meta">发布于 2026 年 10 月 22 日 · Android 8.0 及以上手机</p>
-      <p>本次升级平台选择与完整简评编辑，重点优化窄屏、大字号排版、草稿保护及分享预览，减少重复计算并精简安装包。沿用原正式版签名，可覆盖安装；App 内更新继续从新网站读取。</p>
-      <a class="button" href="https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.37-release.apk" download>下载 Android 2.1.37 安装包</a>
+      <h2 id="version-title" class="version">版本 2.1.38</h2>
+      <p class="meta">发布于 2026 年 10 月 23 日 · Android 8.0 及以上手机</p>
+      <p>修复已通关游戏评分下移的问题，统一详细与简略卡片的角标位置，完善窄屏、大字号及多个版本标识的布局。沿用原正式版签名，可覆盖安装；App 内更新继续从新网站读取。</p>
+      <a class="button" href="https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.38-release.apk" download>下载 Android 2.1.38 安装包</a>
       <p class="small">下载后在手机上打开 APK，按系统提示安装。安装前建议备份重要游戏记录。</p>
-      <p class="small">安装包约 15.24 MiB，比 2.1.36 缩小约 41.7%；本站下载入口会跳转至本项目的 GitHub 正式发布附件。<a href="https://github.com/Clay10096/game-notes-support/releases/tag/v2.1.37">备用下载与版本详情</a>。</p>
-      <p class="small">安装包 SHA-256：07e94242f9a8f97e252eba42bbb24ae0090b2f3a0d2f5315c0dcfe236c9ab3d2</p>
-      <p class="small"><a href="release-notes-2.1.37.txt" download>下载本版更新说明</a></p>
+      <p class="small">安装包约 15.24 MiB；本站下载入口会跳转至本项目的 GitHub 正式发布附件。<a href="https://github.com/Clay10096/game-notes-support/releases/tag/v2.1.38">备用下载与版本详情</a>。</p>
+      <p class="small">安装包 SHA-256：b42569b21bd2471890374983878d54865154a08c78b5b4baba464d09a7f6f48b</p>
+      <p class="small"><a href="release-notes-2.1.38.txt" download>下载本版更新说明</a></p>
     </section>
     <section class="card" aria-labelledby="changes-title">
       <h2 id="changes-title">本次更新</h2>
+      <ul>
+        <li>修复详细卡片中已通关游戏的评分下移、同一分数位置不一致的问题；评分固定在封面右上角，通关状态不再改变其位置。</li>
+        <li>详细、简略及翻面卡片正面统一角标布局：通关勋章位于左上角，评分位于右上角，购买形式标识位于右下角。</li>
+        <li>按实际封面宽度预留独立空间，完善窄屏、大字号和多个版本标识的防重叠；普通与 MC 风格评分完整显示，包括 0.0 和 10.0。</li>
+        <li>增加自动坐标检查，验证通关前后评分位置和尺寸一致、勋章不重叠、版本标识不越界，未评分记录不出现分数。</li>
+        <li>通过 482 项单元测试、48 组原生界面组合（240 张卡片），并完成 2.1.37 → 2.1.38 正式包覆盖升级验收，测试旧记录完整保留。</li>
+      </ul>
+      <p class="small" style="margin-top:20px">沿用原正式版签名，现有正式版用户可直接覆盖安装；请勿为更新而卸载应用，以保留本机数据。</p>
+    </section>
+    <section class="card" aria-labelledby="platform-review-changes-title">
+      <h2 id="platform-review-changes-title">此前平台、简评与排版改进（2.1.37）</h2>
       <ul>
         <li>升级游玩平台与发售平台选择：支持 29 个预设平台、自定义平台和多选；两个字段独立编辑、独立筛选，兼容旧名称和未知平台。</li>
         <li>完整简评新增字号、加粗、斜体、下划线、删除线、清除格式六项工具，等宽居中分布；支持原生输入、撤销与重做，旧简评及备份继续兼容。</li>
