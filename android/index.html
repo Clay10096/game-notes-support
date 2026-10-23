@@ -27,17 +27,29 @@
     <h1>获取游戏笔记安卓版</h1>
     <p class="lead">以后有新版本，会在此页显示；App 内“个人设置 → 获取最新版本”也会读取这里的版本信息。</p>
     <section class="card" aria-labelledby="version-title">
-      <h2 id="version-title" class="version">版本 2.1.38</h2>
+      <h2 id="version-title" class="version">版本 2.1.39</h2>
       <p class="meta">发布于 2026 年 10 月 23 日 · Android 8.0 及以上手机</p>
-      <p>修复已通关游戏评分下移的问题，统一详细与简略卡片的角标位置，完善窄屏、大字号及多个版本标识的布局。沿用原正式版签名，可覆盖安装；App 内更新继续从新网站读取。</p>
-      <a class="button" href="https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.38-release.apk" download>下载 Android 2.1.38 安装包</a>
+      <p>完善待发售价格、PS 奖杯、Xbox 百分比及其他页面的窄屏与大字号排版；点击首页“有新安装包”可前往下载安装。沿用原正式版签名，可覆盖安装；App 内更新继续从新网站读取。</p>
+      <a class="button" href="GameNotes-Android-v2.1.39-release.apk" download>直接下载 Android 2.1.39 安装包</a>
       <p class="small">下载后在手机上打开 APK，按系统提示安装。安装前建议备份重要游戏记录。</p>
-      <p class="small">安装包约 15.24 MiB；本站下载入口会跳转至本项目的 GitHub 正式发布附件。<a href="https://github.com/Clay10096/game-notes-support/releases/tag/v2.1.38">备用下载与版本详情</a>。</p>
-      <p class="small">安装包 SHA-256：b42569b21bd2471890374983878d54865154a08c78b5b4baba464d09a7f6f48b</p>
-      <p class="small"><a href="release-notes-2.1.38.txt" download>下载本版更新说明</a></p>
+      <p class="small">安装包约 15.25 MiB；由当前网站直接提供 APK，无需跳转 GitHub。新旧两个网站均支持站内直接下载。</p>
+      <p class="small">安装包 SHA-256：c187bd0b025dec4fde125a0ded1a18bfc0dc6814c4d7e3387d23fbdb33bdf888</p>
+      <p class="small"><a href="release-notes-2.1.39.txt" download>下载本版更新说明</a></p>
     </section>
     <section class="card" aria-labelledby="changes-title">
       <h2 id="changes-title">本次更新</h2>
+      <ul>
+        <li>修复待发售卡片中长标题与版本按钮重叠、价格被截断的问题；价格、人民币参考价、版本选择和日期分别占用独立空间。</li>
+        <li>完善 PS 奖杯数量布局；窄屏或大字号时自动减少列数，图标与数字保持居中。Xbox 圆环百分比、成就数和玩家分数完整显示。</li>
+        <li>优化个人评分编辑、统计图例、账号管理、小组件选择、倒计时及实验功能导航，减少挤压、错位和异常换行。</li>
+        <li>待确认列表的说明随内容滚动，操作按钮按空间换行，避免大字号时挤占列表；继续保留底部安全距离。</li>
+        <li>首页“有新安装包”现在可直接打开新网站的下载安装入口；右侧关闭按钮只关闭该版本提醒，不触发下载。</li>
+        <li>两个网站改为直接提供同一正式 APK，下载按钮不再跳转 GitHub；安装仍需玩家在 Android 系统中确认，不会自动安装。</li>
+      </ul>
+      <p class="small" style="margin-top:20px">沿用原正式版签名，现有正式版用户可直接覆盖安装；请勿为更新而卸载应用，以保留本机数据。</p>
+    </section>
+    <section class="card" aria-labelledby="score-changes-title">
+      <h2 id="score-changes-title">此前评分定位修复（2.1.38）</h2>
       <ul>
         <li>修复详细卡片中已通关游戏的评分下移、同一分数位置不一致的问题；评分固定在封面右上角，通关状态不再改变其位置。</li>
         <li>详细、简略及翻面卡片正面统一角标布局：通关勋章位于左上角，评分位于右上角，购买形式标识位于右下角。</li>

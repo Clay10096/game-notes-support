@@ -1,7 +1,7 @@
 {
-  "versionCode": 84,
-  "versionName": "2.1.38",
+  "versionCode": 85,
+  "versionName": "2.1.39",
   "publishedAt": "2026-10-23",
-  "notes": "修复已通关游戏评分下移、位置不一致的问题。详细、简略及翻面卡片正面共用封面角标布局：勋章左上、评分右上、版本标识右下；通关状态不再改变评分位置。按实际封面宽度预留空间，完善窄屏、大字号和多版本标识的防重叠，普通与 MC 风格评分完整显示。482 项测试、48 组界面组合及正式包覆盖升级验证通过。沿用原正式版签名，可直接覆盖安装；应用内更新继续使用新网站。PS读取仅为试验性功能，稳定性待验证。",
-  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.38-release.apk"
+  "notes": "完善待发售价格、PS 奖杯、Xbox 百分比及其他页面的窄屏与大字号排版。首页“有新安装包”可点击打开下载安装入口，并保留独立关闭操作。两个网站均支持站内直接下载，不再跳转 GitHub；App 内更新仍使用新网站。沿用原正式版签名，可覆盖安装，请勿卸载。",
+  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.39-release.apk"
 }
