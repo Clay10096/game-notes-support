@@ -1,7 +1,7 @@
 {
-  "versionCode": 85,
-  "versionName": "2.1.39",
-  "publishedAt": "2026-10-23",
-  "notes": "完善待发售价格、PS 奖杯、Xbox 百分比及其他页面的窄屏与大字号排版。首页“有新安装包”可点击打开下载安装入口，并保留独立关闭操作。两个网站均支持站内直接下载，不再跳转 GitHub；App 内更新仍使用新网站。沿用原正式版签名，可覆盖安装，请勿卸载。",
-  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.39-release.apk"
+  "versionCode": 86,
+  "versionName": "2.1.40",
+  "publishedAt": "2026-10-24",
+  "notes": "优化 PS 授权回调兼容与错误分类，新增可复制的脱敏诊断信息。账号同步页可直接粘贴凭证并连接，明确提交后的状态，完善登录及失败处理引导。两个网站均支持直接下载；App 内更新继续使用新网站。沿用原正式签名，可覆盖安装，请勿卸载。",
+  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.40-release.apk"
 }

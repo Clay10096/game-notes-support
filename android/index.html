@@ -27,17 +27,28 @@
     <h1>获取游戏笔记安卓版</h1>
     <p class="lead">以后有新版本，会在此页显示；App 内“个人设置 → 获取最新版本”也会读取这里的版本信息。</p>
     <section class="card" aria-labelledby="version-title">
-      <h2 id="version-title" class="version">版本 2.1.39</h2>
-      <p class="meta">发布于 2026 年 10 月 23 日 · Android 8.0 及以上手机</p>
-      <p>完善待发售价格、PS 奖杯、Xbox 百分比及其他页面的窄屏与大字号排版；点击首页“有新安装包”可前往下载安装。沿用原正式版签名，可覆盖安装；App 内更新继续从新网站读取。</p>
-      <a class="button" href="GameNotes-Android-v2.1.39-release.apk" download>直接下载 Android 2.1.39 安装包</a>
+      <h2 id="version-title" class="version">版本 2.1.40</h2>
+      <p class="meta">发布于 2026 年 10 月 24 日 · Android 8.0 及以上手机</p>
+      <p>优化 PS 授权回调兼容与错误分类，加入可复制的脱敏诊断信息，并完善粘贴凭证、连接账号及失败处理引导。沿用原正式版签名，可覆盖安装；App 内更新继续从新网站读取。</p>
+      <a class="button" href="GameNotes-Android-v2.1.40-release.apk" download>直接下载 Android 2.1.40 安装包</a>
       <p class="small">下载后在手机上打开 APK，按系统提示安装。安装前建议备份重要游戏记录。</p>
       <p class="small">安装包约 15.25 MiB；由当前网站直接提供 APK，无需跳转 GitHub。新旧两个网站均支持站内直接下载。</p>
-      <p class="small">安装包 SHA-256：c187bd0b025dec4fde125a0ded1a18bfc0dc6814c4d7e3387d23fbdb33bdf888</p>
-      <p class="small"><a href="release-notes-2.1.39.txt" download>下载本版更新说明</a></p>
+      <p class="small">安装包 SHA-256：80f86ae7d800e782af25bc4a925553a6f373c78c6edab43756ea98095a84d407</p>
+      <p class="small"><a href="release-notes-2.1.40.txt" download>下载本版更新说明</a></p>
     </section>
     <section class="card" aria-labelledby="changes-title">
       <h2 id="changes-title">本次更新</h2>
+      <ul>
+        <li>完善 PS 授权回调兼容；区分凭证失效、网页确认、访问受限、请求频繁、服务异常、网络超时与授权响应异常，提供对应处理提示。</li>
+        <li>PS 账号同步页新增“粘贴凭证并连接”，复制完整 JSON 后可直接提交，无需填写 Online ID。</li>
+        <li>明确提示凭证已提交、输入框已安全清空，避免误以为没有粘贴成功；连接结果以下方同步状态为准。</li>
+        <li>授权失败时可复制脱敏诊断信息，仅包含版本、请求阶段、状态码与响应类别，不包含凭证、账号、网址或网页内容。</li>
+        <li>完善三步登录引导与失败后的操作说明；已有记录和编辑继续保留，无需反复卸载或移除账号。</li>
+      </ul>
+      <p class="small" style="margin-top:20px">若 PS 授权仍失败，请在账号同步页复制脱敏诊断信息反馈，无需发送 NPSSO 原文或凭证截图。PS读取仅为试验性功能，稳定性待验证。</p>
+    </section>
+    <section class="card" aria-labelledby="layout-changes-title">
+      <h2 id="layout-changes-title">此前排版及更新入口改进（2.1.39）</h2>
       <ul>
         <li>修复待发售卡片中长标题与版本按钮重叠、价格被截断的问题；价格、人民币参考价、版本选择和日期分别占用独立空间。</li>
         <li>完善 PS 奖杯数量布局；窄屏或大字号时自动减少列数，图标与数字保持居中。Xbox 圆环百分比、成就数和玩家分数完整显示。</li>
