@@ -1,7 +1,7 @@
 {
-  "versionCode": 86,
-  "versionName": "2.1.40",
-  "publishedAt": "2026-10-24",
-  "notes": "优化 PS 授权回调兼容与错误分类，新增可复制的脱敏诊断信息。账号同步页可直接粘贴凭证并连接，明确提交后的状态，完善登录及失败处理引导。两个网站均支持直接下载；App 内更新继续使用新网站。沿用原正式签名，可覆盖安装，请勿卸载。",
-  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.40-release.apk"
+  "versionCode": 87,
+  "versionName": "2.1.41",
+  "publishedAt": "2026-10-25",
+  "notes": "新增一键隐藏试玩版，支持玩家手动标记、四平台自动识别及多账号合并标记。隐藏后保留评分、简评和游戏资料，可从已隐藏的游戏恢复。入口：设置 → 批量操作 → 一键隐藏试玩版。两个网站均支持直接下载；App 内更新继续使用新网站。沿用原正式签名，可覆盖安装，请勿卸载。",
+  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.41-release.apk"
 }

@@ -27,17 +27,27 @@
     <h1>获取游戏笔记安卓版</h1>
     <p class="lead">以后有新版本，会在此页显示；App 内“个人设置 → 获取最新版本”也会读取这里的版本信息。</p>
     <section class="card" aria-labelledby="version-title">
-      <h2 id="version-title" class="version">版本 2.1.40</h2>
-      <p class="meta">发布于 2026 年 10 月 24 日 · Android 8.0 及以上手机</p>
-      <p>优化 PS 授权回调兼容与错误分类，加入可复制的脱敏诊断信息，并完善粘贴凭证、连接账号及失败处理引导。沿用原正式版签名，可覆盖安装；App 内更新继续从新网站读取。</p>
-      <a class="button" href="GameNotes-Android-v2.1.40-release.apk" download>直接下载 Android 2.1.40 安装包</a>
+      <h2 id="version-title" class="version">版本 2.1.41</h2>
+      <p class="meta">发布于 2026 年 10 月 25 日 · Android 8.0 及以上手机</p>
+      <p>新增“一键隐藏试玩版”，同时支持玩家手动标记和自动识别的试玩版，保留游戏资料并支持恢复。沿用原正式版签名，可覆盖安装；App 内更新继续从新网站读取。</p>
+      <a class="button" href="GameNotes-Android-v2.1.41-release.apk" download>直接下载 Android 2.1.41 安装包</a>
       <p class="small">下载后在手机上打开 APK，按系统提示安装。安装前建议备份重要游戏记录。</p>
       <p class="small">安装包约 15.25 MiB；由当前网站直接提供 APK，无需跳转 GitHub。新旧两个网站均支持站内直接下载。</p>
-      <p class="small">安装包 SHA-256：80f86ae7d800e782af25bc4a925553a6f373c78c6edab43756ea98095a84d407</p>
-      <p class="small"><a href="release-notes-2.1.40.txt" download>下载本版更新说明</a></p>
+      <p class="small">安装包 SHA-256：73380b0bfbb6c7a036a18d96bc2dd706fb904cfd9f2f873e88b8a1eacfee871e</p>
+      <p class="small"><a href="release-notes-2.1.41.txt" download>下载本版更新说明</a></p>
     </section>
     <section class="card" aria-labelledby="changes-title">
       <h2 id="changes-title">本次更新</h2>
+      <ul>
+        <li>设置 → 批量操作新增“一键隐藏试玩版”，确认后隐藏当前全部试玩版，不受首页搜索和筛选条件影响。</li>
+        <li>同时支持玩家手动标记、四平台自动识别和同平台多账号合并后的手动版本标记；尊重玩家改为正式版或未确认的设置。</li>
+        <li>隐藏后保留评分、简评、时长、封面和账号来源，可在“筛选 → 已隐藏的游戏”中恢复。</li>
+        <li>普通同步不会取消已有隐藏；这是一次性批量操作，以后新增的试玩版需再次执行。</li>
+      </ul>
+      <p class="small" style="margin-top:20px">沿用原正式签名，可直接覆盖安装；请勿卸载应用，以保留本机数据。</p>
+    </section>
+    <section class="card" aria-labelledby="ps-auth-changes-title">
+      <h2 id="ps-auth-changes-title">此前 PS 授权及登录引导改进（2.1.40）</h2>
       <ul>
         <li>完善 PS 授权回调兼容；区分凭证失效、网页确认、访问受限、请求频繁、服务异常、网络超时与授权响应异常，提供对应处理提示。</li>
         <li>PS 账号同步页新增“粘贴凭证并连接”，复制完整 JSON 后可直接提交，无需填写 Online ID。</li>
