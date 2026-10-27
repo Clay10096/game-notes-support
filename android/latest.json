@@ -1,7 +1,7 @@
 {
-  "versionCode": 87,
-  "versionName": "2.1.41",
-  "publishedAt": "2026-10-25",
-  "notes": "新增一键隐藏试玩版，支持玩家手动标记、四平台自动识别及多账号合并标记。隐藏后保留评分、简评和游戏资料，可从已隐藏的游戏恢复。入口：设置 → 批量操作 → 一键隐藏试玩版。两个网站均支持直接下载；App 内更新继续使用新网站。沿用原正式签名，可覆盖安装，请勿卸载。",
-  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.41-release.apk"
+  "versionCode": 90,
+  "versionName": "2.1.44",
+  "publishedAt": "2026-10-27",
+  "notes": "新增双击应用顶栏标题或空白区域快速回到当前页面顶部，首页、详情、设置、账号同步等页面均支持。包含平台名称一致性、购买信息回填、备份导入保护，以及任天堂维护错误识别、请求控制和脱敏诊断改进；任天堂接口维护仍需官方恢复。两个网站均可直接下载，App 更新继续使用新网站。沿用原正式签名，可覆盖安装，请勿卸载。",
+  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.44-release.apk"
 }
