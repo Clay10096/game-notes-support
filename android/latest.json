@@ -1,7 +1,7 @@
 {
-  "versionCode": 90,
-  "versionName": "2.1.44",
-  "publishedAt": "2026-10-27",
-  "notes": "新增双击应用顶栏标题或空白区域快速回到当前页面顶部，首页、详情、设置、账号同步等页面均支持。包含平台名称一致性、购买信息回填、备份导入保护，以及任天堂维护错误识别、请求控制和脱敏诊断改进；任天堂接口维护仍需官方恢复。两个网站均可直接下载，App 更新继续使用新网站。沿用原正式签名，可覆盖安装，请勿卸载。",
-  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.44-release.apk"
+  "versionCode": 91,
+  "versionName": "2.1.45",
+  "publishedAt": "2026-11-03",
+  "notes": "加强备份校验与恢复一致性，修复共享封面清理和临时文件残留；优化后台重试、大资料库统计与同步进度，新增停止本次同步，清理冗余代码。沿用原正式版签名，可覆盖安装；App 内更新继续从新网站读取。",
+  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.45-release.apk"
 }

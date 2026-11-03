@@ -27,17 +27,31 @@
     <h1>获取游戏笔记安卓版</h1>
     <p class="lead">以后有新版本，会在此页显示；App 内“个人设置 → 获取最新版本”也会读取这里的版本信息。</p>
     <section class="card" aria-labelledby="version-title">
-      <h2 id="version-title" class="version">版本 2.1.44</h2>
-      <p class="meta">发布于 2026 年 10 月 27 日 · Android 8.0 及以上手机</p>
-      <p>新增双击应用顶栏快速回到顶部，同时包含平台名称一致性、旧数据保护和任天堂读取诊断改进。沿用原正式版签名，可覆盖安装；App 内更新继续从新网站读取。</p>
-      <a class="button" href="GameNotes-Android-v2.1.44-release.apk" download>直接下载 Android 2.1.44 安装包</a>
+      <h2 id="version-title" class="version">版本 2.1.45</h2>
+      <p class="meta">发布于 2026 年 11 月 3 日 · Android 8.0 及以上手机</p>
+      <p>加强备份校验与恢复一致性，修复共享封面清理和临时文件残留；优化后台重试、大资料库统计与同步进度，新增停止本次同步，清理冗余代码。沿用原正式版签名，可覆盖安装；App 内更新继续从新网站读取。</p>
+      <a class="button" href="GameNotes-Android-v2.1.45-release.apk" download>直接下载 Android 2.1.45 安装包</a>
       <p class="small">下载后在手机上打开 APK，按系统提示安装。安装前建议备份重要游戏记录。</p>
-      <p class="small">安装包约 15.27 MiB；由当前网站直接提供 APK，无需跳转 GitHub。新旧两个网站均支持站内直接下载。</p>
-      <p class="small">安装包 SHA-256：2c0624600c9c2cd0fd0b72d7b6202d9a0cdeb7ecba71307a339be5d58b022ead</p>
-      <p class="small"><a href="release-notes-2.1.44.txt" download>下载本版更新说明</a></p>
+      <p class="small">安装包约 15.29 MiB；由当前网站直接提供 APK，无需跳转 GitHub。新旧两个网站均支持站内直接下载。</p>
+      <p class="small">安装包 SHA-256：debb2db33d4c6f1a72b2bbe873b8f2eeb29878abba01c768028a4cf775439d14</p>
+      <p class="small"><a href="release-notes-2.1.45.txt" download>下载本版更新说明</a></p>
     </section>
     <section class="card" aria-labelledby="changes-title">
-      <h2 id="changes-title">本次更新：双击顶栏回到顶部</h2>
+      <h2 id="changes-title">本次更新：数据保护与同步优化</h2>
+      <ul>
+        <li>加强备份导入校验：异常时长、评分、日期和来源数据会在写入前被拒绝，同时兼容旧备份缺省字段和删除记录。</li>
+        <li>改善恢复一致性：游戏、来源、每日记录、分类和倒计时数据统一事务提交，失败整体回滚；旧版分类和倒计时数据自动迁移。</li>
+        <li>修复共享封面清理风险：保留仍被游戏、合并封面、隐藏记录和倒计时引用的图片，取消删除游戏时直接删图的做法。</li>
+        <li>完善备份文件管理：失败导入和导出的临时文件自动清理；读写使用相同容量限制，超限明确提示；备份数据改为流式处理。</li>
+        <li>优化封面后台读取：区分永久错误、临时网络错误和限流，限制重试，合并重复任务，并支持取消正在进行的请求。</li>
+        <li>优化大资料库统计：后台计算、索引查找和统一数据快照，减少重复计算；统计尚未完成时暂停导出，避免导出旧结果。</li>
+        <li>改善同步反馈：显示当前账号序号、读取阶段和耗时，提供“停止本次同步”，保留已成功提交的数据。</li>
+        <li>清理确认无调用的旧方法和重复映射，将筛选统一为集合模型；保留旧数据库、旧备份及历史后台任务的兼容入口。</li>
+      </ul>
+      <p class="small" style="margin-top:20px">585 项回归测试通过；本轮尚未进行真机验收。沿用原正式签名，可直接覆盖安装，请勿卸载应用。</p>
+    </section>
+    <section class="card" aria-labelledby="scrolltop-changes-title">
+      <h2 id="scrolltop-changes-title">此前双击顶栏回到顶部（2.1.44）</h2>
       <ul>
         <li>双击应用内顶栏的标题或空白区域，即可快速回到当前页面顶部；首页顶栏保持可见，详细、简略和批量选择模式均支持。</li>
         <li>覆盖详情、设置、筛选、统计、各平台账号同步、错误详情、编辑、分享设置与预览、倒计时和指南等页面。</li>
