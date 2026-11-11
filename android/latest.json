@@ -1,7 +1,7 @@
 {
-  "versionCode": 91,
-  "versionName": "2.1.45",
-  "publishedAt": "2026-11-03",
-  "notes": "加强备份校验与恢复一致性，修复共享封面清理和临时文件残留；优化后台重试、大资料库统计与同步进度，新增停止本次同步，清理冗余代码。沿用原正式版签名，可覆盖安装；App 内更新继续从新网站读取。",
-  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.45-release.apk"
+  "versionCode": 92,
+  "versionName": "2.1.46",
+  "publishedAt": "2026-11-11",
+  "notes": "实验功能新增「NS精选」，内置 Switch 和 Switch 2 共 8 份清单、1,216 条资料，支持离线浏览、搜索和筛选。沿用原正式版签名，可覆盖安装。",
+  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.46-release.apk"
 }
