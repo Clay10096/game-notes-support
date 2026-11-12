@@ -1,7 +1,7 @@
 {
-  "versionCode": 92,
-  "versionName": "2.1.46",
-  "publishedAt": "2026-11-11",
-  "notes": "实验功能新增「NS精选」，内置 Switch 和 Switch 2 共 8 份清单、1,216 条资料，支持离线浏览、搜索和筛选。沿用原正式版签名，可覆盖安装。",
-  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.46-release.apk"
+  "versionCode": 95,
+  "versionName": "2.1.49",
+  "publishedAt": "2026-11-12",
+  "notes": "白色磨砂和暗夜霓虹均可设置自定义壁纸。选中主题后，设置首屏即可选图、调整构图或恢复默认背景。两种主题分别记住照片、缩放和位置。壁纸用于首页和实验功能。沿用原正式版签名，可覆盖安装。",
+  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.49-release.apk"
 }
