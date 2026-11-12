@@ -1,7 +1,7 @@
 {
-  "versionCode": 95,
-  "versionName": "2.1.49",
+  "versionCode": 99,
+  "versionName": "2.1.53",
   "publishedAt": "2026-11-12",
-  "notes": "白色磨砂和暗夜霓虹均可设置自定义壁纸。选中主题后，设置首屏即可选图、调整构图或恢复默认背景。两种主题分别记住照片、缩放和位置。壁纸用于首页和实验功能。沿用原正式版签名，可覆盖安装。",
-  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.49-release.apk"
+  "notes": "优化了壁纸逻辑，修复了部分显示 BUG。",
+  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.53-release.apk"
 }
