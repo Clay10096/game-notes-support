@@ -1,7 +1,7 @@
 {
-  "versionCode": 100,
-  "versionName": "2.1.54",
+  "versionCode": 103,
+  "versionName": "2.1.57",
   "publishedAt": "2026-11-13",
-  "notes": "修复了部分安卓机型桌面小组件显示变形的问题。",
-  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.54-release.apk"
+  "notes": "1. 编辑与筛选　键盘输入评分、MC 评分预览、独立编辑首次游玩和通关日期，支持按年份、发行商和多个任天堂账号筛选。\n2. 批量修改　增加发售平台、购买金额、购买形式和发行商。保存前可以预览，合并游戏可只修改选中的来源。\n3. 统计与导出　支持购买金额折算、从统计点进对应游戏列表、按条件制作推荐海报和导出清单。封面加载失败时可以重试，或用占位图继续导出。\n4. 封面、小组件与折扣　支持按游戏恢复 SteamGridDB 封面，桌面小组件可固定或自动轮播，折扣列表新增发售日期排序和更多折扣档位。\n5. 优化了小屏和大字号下的界面适配，修复了部分页面异常换行和文字裁切的问题。",
+  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.57-release.apk"
 }

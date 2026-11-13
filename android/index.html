@@ -15,7 +15,7 @@
     main{padding-top:54px;padding-bottom:72px}h1{font-size:clamp(32px,7vw,48px);line-height:1.3;margin:12px 0 14px}h2{font-size:22px;margin:0 0 12px}p{margin:0 0 16px}
     .lead{font-size:18px;color:var(--muted)}.card{margin-top:34px;padding:30px;border:1px solid var(--line);border-radius:20px;background:white}
     .version{font-size:28px;font-weight:750;margin-bottom:4px}.meta{color:var(--muted);font-size:14px}.button{display:block;margin:26px 0 16px;padding:14px 20px;text-align:center;text-decoration:none;background:var(--green);color:white;border-radius:10px;font-weight:700;min-height:52px}
-    .notice{border-left:4px solid #d38820;padding-left:16px}.small{font-size:14px;color:var(--muted);overflow-wrap:anywhere}ul{padding-left:24px;margin:0}li+li{margin-top:8px}
+    .notice{border-left:4px solid #d38820;padding-left:16px}.small{font-size:14px;color:var(--muted);overflow-wrap:anywhere}ul,ol{padding-left:24px;margin:0}ol{margin-bottom:16px}li+li{margin-top:8px}
     footer{border-top:1px solid var(--line);padding-top:24px;padding-bottom:32px;display:flex;gap:24px;flex-wrap:wrap;font-size:14px}
     @media(max-width:520px){main{padding-top:34px}.card{padding:22px}.header{min-height:72px}}
   </style>
@@ -27,14 +27,21 @@
     <h1>获取游戏笔记安卓版</h1>
     <p class="lead">以后有新版本，会在此页显示；App 内“个人设置 → 获取最新版本”也会读取这里的版本信息。</p>
     <section class="card" aria-labelledby="version-title">
-      <h2 id="version-title" class="version">版本 2.1.54</h2>
+      <h2 id="version-title" class="version">版本 2.1.57</h2>
       <p class="meta">发布于 2026 年 11 月 13 日 · Android 8.0 及以上手机</p>
-      <p>修复了部分安卓机型桌面小组件显示变形的问题。</p>
-      <a class="button" href="GameNotes-Android-v2.1.54-release.apk" download>直接下载 Android 2.1.54 安装包</a>
+      <a class="button" href="GameNotes-Android-v2.1.57-release.apk" download>直接下载 Android 2.1.57 安装包</a>
       <p class="small">下载后在手机上打开 APK，按系统提示安装。安装前建议备份重要游戏记录。</p>
-      <p class="small">安装包约 15.51 MiB。新旧两个网站均可直接下载 APK。</p>
-      <p class="small">安装包 SHA-256：6d483a2839c9938ddcf3ec316158cb57495cae78eaf4e09fffef84200d9723d6</p>
-      <p class="small"><a href="release-notes-2.1.54.txt" download>下载本版更新说明</a></p>
+      <p>更新内容</p>
+      <ol>
+        <li><strong>编辑与筛选</strong>　键盘输入评分、MC 评分预览、独立编辑首次游玩和通关日期，支持按年份、发行商和多个任天堂账号筛选。</li>
+        <li><strong>批量修改</strong>　增加发售平台、购买金额、购买形式和发行商。保存前可以预览，合并游戏可只修改选中的来源。</li>
+        <li><strong>统计与导出</strong>　支持购买金额折算、从统计点进对应游戏列表、按条件制作推荐海报和导出清单。封面加载失败时可以重试，或用占位图继续导出。</li>
+        <li><strong>封面、小组件与折扣</strong>　支持按游戏恢复 SteamGridDB 封面，桌面小组件可固定或自动轮播，折扣列表新增发售日期排序和更多折扣档位。</li>
+        <li>优化了小屏和大字号下的界面适配，修复了部分页面异常换行和文字裁切的问题。</li>
+      </ol>
+      <p class="small">安装包约 15.56 MiB。新旧两个网站均可直接下载 APK。</p>
+      <p class="small">安装包 SHA-256：e711fa5d077f6322c09d321e1e965ef8b45088a6fdfb24a425912dd7ed5a79fd</p>
+      <p class="small"><a href="release-notes-2.1.57.txt" download>下载本版更新说明</a></p>
     </section>
     <section class="card" aria-labelledby="changes-title">
       <h2 id="changes-title">此前双主题自定义壁纸（2.1.49）</h2>
