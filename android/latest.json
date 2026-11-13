@@ -1,7 +1,7 @@
 {
-  "versionCode": 99,
-  "versionName": "2.1.53",
-  "publishedAt": "2026-11-12",
-  "notes": "优化了壁纸逻辑，修复了部分显示 BUG。",
-  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.53-release.apk"
+  "versionCode": 100,
+  "versionName": "2.1.54",
+  "publishedAt": "2026-11-13",
+  "notes": "修复了部分安卓机型桌面小组件显示变形的问题。",
+  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.54-release.apk"
 }
