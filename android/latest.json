@@ -1,7 +1,7 @@
 {
-  "versionCode": 104,
-  "versionName": "2.1.58",
-  "publishedAt": "2026-11-16",
-  "notes": "1. Steam　修复同步漏存最近游玩日期的问题，Steam 和主机游戏可按实际游玩日期排序。\n2. 任天堂　合并备用接口和逐日记录中的有效日期，补齐同一游戏、同一平台的最近游玩日期。\n3. PlayStation 与 Xbox　刷新时保留已有的有效游玩日期，补读时长和成就后仍按游玩日期排序。\n4. 覆盖安装　安装后点首页刷新，即可补齐平台已提供的日期。手动填写的日期优先。",
-  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.58-release.apk"
+  "versionCode": 105,
+  "versionName": "2.1.59",
+  "publishedAt": "2026-11-21",
+  "notes": "新增「棕榈晚霞」主题，带来晚霞壁纸、淡棕榈叶纹，以及同步时会扇动翅膀的白色海鸥。卡片、弹窗、统计图、桌面小组件和图片导出都适配了新主题，也修复了小屏大字号下的文字裁切、异常换行和长确认框无法滚动的问题。\n\n我现在在外旅行，这次主题是远程操作电脑完成的。大部分视觉效果只在模拟器上验证过，真机验证还比较有限。如果大家使用新主题时发现 Bug 或显示不对的地方，欢迎发邮件告诉我。\n\n反馈邮箱 clay106@icloud.com",
+  "downloadUrl": "https://game-notes-support.pages.dev/android/GameNotes-Android-v2.1.59-release.apk"
 }
